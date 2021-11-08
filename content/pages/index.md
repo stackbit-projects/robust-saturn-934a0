@@ -52,7 +52,7 @@ sections:
         fontStyle: normal
         textAlign: left
         margin:
-          - mt-12
+          - mt-0
       subtitle:
         fontWeight: 400
         fontStyle: normal
@@ -101,7 +101,9 @@ sections:
         fontWeight: 400
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-12"]
+        margin:
+          - mt-0
+          - mb-12
       actions:
         justifyContent: center
     type: FeaturedPostsSection
